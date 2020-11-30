@@ -54,7 +54,7 @@ public class Main {
     public static CalculateResult calculateEpsilonSumTheSequence(double x, double e) {
         double sum = 1;
         double result = setMemberTheSequence(1, x);
-        int quantity = 0;
+        int quantity = 1;
 
         for (int i = 1; Math.abs(result) < e; ) {
             i++;
